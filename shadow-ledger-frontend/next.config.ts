@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   },
   trailingSlash: true,
   async headers() {
-    // Required by FHEVM for SharedArrayBuffer
+    // Required by FHEVM for SharedArrayBuffer and WASM modules
     return [
       {
         source: '/:path*',
