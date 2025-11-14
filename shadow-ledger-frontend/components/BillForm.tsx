@@ -9,6 +9,7 @@ interface BillFormProps {
   message: string;
 }
 
+// Predefined bill categories for better organization
 const CATEGORIES = [
   "Food",
   "Transport",

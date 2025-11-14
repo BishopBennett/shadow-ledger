@@ -1,5 +1,6 @@
 "use client";
 
+// Main page component for Shadow Ledger dApp
 import { useFhevm } from "@/fhevm/useFhevm";
 import { useInMemoryStorage } from "@/hooks/useInMemoryStorage";
 import { useMetaMaskEthersSigner } from "@/hooks/metamask/useMetaMaskEthersSigner";

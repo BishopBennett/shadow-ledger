@@ -1,5 +1,7 @@
 "use client";
 
+// Wallet connection and status display component
+
 import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
