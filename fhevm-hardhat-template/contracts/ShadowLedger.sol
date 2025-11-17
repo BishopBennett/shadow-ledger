@@ -32,6 +32,7 @@ contract ShadowLedger is ZamaEthereumConfig {
     
     /// @notice Mapping from user address to month index to total amount (encrypted)
     /// @dev Month index = timestamp / 2629746 (approximate month in seconds)
+    ///      Used for monthly spending aggregation and statistics
     mapping(address => mapping(uint256 => euint64)) private _monthlyTotals;
 
     /// @notice Event emitted when a bill is created
