@@ -1,5 +1,7 @@
 "use client";
 
+// Custom hook for ShadowLedger contract interactions
+
 import { ethers } from "ethers";
 import {
   RefObject,
