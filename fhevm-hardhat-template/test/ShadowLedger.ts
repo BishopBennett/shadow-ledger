@@ -1,6 +1,7 @@
 import { HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { ethers, fhevm } from "hardhat";
 import { ShadowLedger, ShadowLedger__factory } from "../types";
+// ShadowLedger contract test suite
 import { expect } from "chai";
 import { FhevmType } from "@fhevm/hardhat-plugin";
 
