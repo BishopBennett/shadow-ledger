@@ -147,7 +147,7 @@ The frontend is deployed on Vercel:
 
 ### Smart Contracts
 - **Solidity**: ^0.8.27
-- **FHEVM Solidity**: ^0.9.1
+- **FHEVM Solidity**: ^0.9.1 (latest stable)
 - **Hardhat**: ^2.26.0
 - **Ethers.js**: ^6.15.0
 
@@ -157,7 +157,7 @@ The frontend is deployed on Vercel:
 - **TypeScript**: ^5
 - **Tailwind CSS**: ^3.4.1
 - **Recharts**: ^2.12.7
-- **FHEVM Relayer SDK**: ^0.3.0-5
+- **FHEVM Relayer SDK**: ^0.3.0-5 (updated to latest)
 
 ## FHEVM Integration
 
